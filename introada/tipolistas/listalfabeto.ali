@@ -1,0 +1,100 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U listalfabeto%b	listalfabeto.adb	3fb82b19 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W lista%s		lista.adb		lista.ali
+W system%s		system.ads		system.ali
+W system.compare_array_unsigned_8%s  s-carun8.adb  s-carun8.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D lista.ads		20171009201207 02573667
+D listalfabeto.adb	20171010080754 3a133c6f
+D system.ads		20141210093300 90249111
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010121735 62bad392
+D s-carun8.ads		20140225151544 a903718d
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 17|1r6 3r6 8r30 9r29
+X 8 a-string.ads
+16K13*Strings 35e16 17|3r10 9r33
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 17|3w18 9r41
+79R9*Unbounded_String<5|48R9> 473e14 17|13r54 13r109 25r10
+94V13*To_Unbounded_String{79R9} 17|32s50
+100V13*To_String{string} 17|16s24 16s45
+X 12 a-textio.ads
+49K13*Text_IO 471e16 17|1w10 8r34
+256V13*Get_Line{string} 17|32s75
+X 16 lista.ads
+4K9*lista 23e10 17|2w6 10r27
+9P9*Word_List_Type(7R9) 17|12r20
+19U14*Add_Word_alfabeto 17|32s19
+21U14*Print_All 17|35s11
+X 17 listalfabeto.adb
+7U11*listalfabeto 7b11 37l5 37t17
+8K17 ATIO=8:34 32r70
+9K17 ASU=9:41 13r50 13r105 16r20 16r41 25r6 32r46
+10K17 l=10:27 12r18 32r17 35r9
+12p9 Mi_Lista{16|9P9} 32m37 32r37 35r21
+13U19 buscar_menor 13b19 13>33 13>39 13<73 13<96 22l13 22t25
+13r33 Word1{10|79R9} 16r34 20r31
+13r39 Word2{10|79R9} 16r55 18r31
+13b73 haymenor{boolean} 17m25
+13r96 Word{10|79R9} 18m25 20m25
+24b1 haymenor{boolean}
+25r1 Word{10|79R9}
+31i13 k{integer}
+

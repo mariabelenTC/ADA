@@ -1,0 +1,168 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_ENUMERATION_MAPS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_LOOPS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U arrays_ordendo%b	arrays_ordenado.adb	f1de302e NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D arrays_ordenado.adb	20180110141719 f622113f
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20141210093300 90249111
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010121735 62bad392
+D s-conca2.ads		20140225151544 02a0d7d0
+D s-conca3.ads		20140225151544 0b705ca5
+D s-conca5.ads		20140225151544 875e432e
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imgboo.ads		20090409150019 f5d971eb
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 14|1r6 2r6 5r25 6r24
+X 8 a-string.ads
+16K13*Strings 35e16 14|2r10 6r28
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 14|2w18 6r36
+79R9*Unbounded_String<5|48R9> 473e14 14|8r17 10r47 13r36 26r41 40r33 121r33
+. 219r32
+94V13*To_Unbounded_String{79R9} 14|225s11 226s11 227s11 228s11 229s11 230s11
+. 231s11 232s11 233s11 234s11 235s11 239s11
+100V13*To_String{string} 14|15s41 28s31 36s25 79s31 79s72 82s31 82s72 166s31
+. 167s19 182s31 183s19 213s57
+166V14*"="{boolean} 14|67s23 152s23
+178V14*"<"{boolean} 14|70s19 155s19
+X 12 a-textio.ads
+49K13*Text_IO 471e16 14|1w10 5r29
+263U14*Put_Line 14|36s12 63s15 64s15 65s15 79s18 82s18 106s15 148s15 149s15
+. 150s15 166s18 182s18 213s19 266s9 267s9
+X 14 arrays_ordenado.adb
+4U11*arrays_ordendo 4b11 273l5 273t19
+5K12 ATIO=5:29 36r7 63r10 64r10 65r10 79r13 82r13 106r10 148r10 149r10 150r10
+. 166r13 182r13 213r14 266r4 267r4
+6K12 ASU=6:36 8r13 10r43 13r32 15r37 26r37 28r27 36r21 40r29 79r27 79r68
+. 82r27 82r68 121r29 166r27 167r15 182r27 183r15 213r53 219r28 225r7 226r7
+. 227r7 228r7 229r7 230r7 231r7 232r7 233r7 234r7 235r7 239r7
+10A9 Maps_clientes(10|79R9)<integer> 11r11 39r31 48r13 120r38 132r13 210r29
+11a4 lista1{10A9} 257m4 260r13 262m11 262r11 264r13
+13V13 Unbounded_H{integer} 13b13 13>25 24l8 24t19
+13r25 W_ASU{10|79R9} 15r51
+14i17 Length_Word{natural} 18m17 19r31
+14i29 N{natural} 17m17 20m25 20r28 22r14
+15a17 Word_String{string} 18r30 20r45
+19i21 k{integer} 20r57
+26U14 Unbounded_H_uno 26b14 26>30 37l8 37t23 242s4 243s4 244s4 245s4 246s4
+. 247s4 248s4 249s4 250s4 251s4 253s4
+26r30 W_ASU{10|79R9} 28r41 36r35
+27i7 Length_Word{natural} 31m7 32r21
+27i19 N{natural} 30m7 33m10 33r13 36r82
+28a7 Word_String{string} 31r20 33r30
+32i11 k{integer} 33r42
+39U14 buscar 39b14 39=22 40>22 41<22 42<22 115l8 115t14 262s4
+39a22 M{10A9} 67r13 70r21 79r82 82r82 107r17 109r26 112m10
+40r22 Key{10|79R9} 67r24 70r15 79r41 82r41
+41i22 i{positive} 61m13 68m15 71m13 77m16 87m16 108r19 109r22 109r28 110m16
+. 110r19
+42b22 Found{boolean} 54m7 57r17 69m15 105r11
+43i7 i_medio{natural} 58m10 65r57 67r15 68r18 70r23 71r16 72r23 74r31 77r19
+. 79r84 82r84 83r45 106r57
+44i7 i_inicial{integer} 51m7 58r20 58r42 59r23 63r58 83m33 84r16 87r19
+45i17 i_final{integer} 52m17 58r34 59r13 61r16 64r57 72m13 74r16
+46b7 Fin{boolean} 55m7 57r31 60m13 75m16 85m16
+47b7 Menor{boolean} 56m7 80m13
+48a7 M_Aux{10A9} 107m10 109m16 112r13
+49i7 Longitud{integer} 52r26 74r39 84r28 108r23
+108i14 k{integer}
+120U14 buscarYcopiar 120b14 120=29 121>22 122<22 123<22 206l8 206t21
+120a29 M{10A9} 152r13 155r21 167r29 183r29
+121r22 Key{10|79R9} 152r25 155r15 166r41 182r41
+122i22 i{positive} 146m13 153m15 161m16 174m16
+123b22 Found{boolean} 138m7 142r17 154m15
+124i7 i_medio{natural} 143m10 150r57 152r15 153r18 155r23 161r19 162r26 167r31
+. 177r28 183r31
+125i7 i_inicial{integer} 135m7 143r20 143r42 144r23 148r58 172r16 174r19
+. 177m16
+126i17 i_final{integer} 136m17 143r34 144r13 146r16 149r57 158r16 162m16
+127b7 Fin{boolean} 139m7 142r31 145m13 159m16 173m16
+128b7 Menor{boolean} 137m7 164m13 167r67 175m16 183r66
+129b7 Ordenado{boolean} 140m7
+130i7 Numero_de_casillas_del_menor_Al_final{positive}
+131i7 Longitud{integer} 136r26 172r29
+132a7 M_Aux{10A9}
+210U14 Imprimir 210b14 210>24 215l8 215t16 260s4 264s4
+210a24 M{10A9} 213r67
+212i13 K{integer} 213r42 213r69
+219r4 A{10|79R9} 225m4 242r20 257r16
+219r6 B{10|79R9} 226m4 243r20 257r22
+219r8 C{10|79R9} 227m4 244r20
+219r10 D{10|79R9} 228m4 245r20
+219r12 E{10|79R9} 229m4 246r20
+219r14 F{10|79R9} 230m4 247r20
+219r16 G{10|79R9} 231m4 248r20 257r40
+219r18 H{10|79R9} 232m4 249r20 257r28
+219r20 Y{10|79R9} 233m4 250r20
+219r22 J{10|79R9} 234m4 251r20 257r34
+219r24 K{10|79R9} 235m4 257r51
+219r26 L{10|79R9} 239m4 253r20 262r18
+220i4 i{integer} 262m20 267r32
+221b4 Found{boolean} 262m22 266r49
+

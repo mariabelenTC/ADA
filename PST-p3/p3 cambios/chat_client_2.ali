@@ -1,0 +1,241 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U chat_client_2%b	chat_client_2.adb	28ff0ef8 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W chat_messages%s	chat_messages.ads	chat_messages.ali
+W handlers%s		handlers.adb		handlers.ali
+W lower_layer_udp%s	lower_layer_udp.adb	lower_layer_udp.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W system.val_int%s	s-valint.adb		s-valint.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-comlin.ads		20140225151544 ea62afbc
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-reatim.ads		20090409150019 63f07669
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-taside.ads		20140124142722 68549ce6
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D ada_sockets.ads	20080723100827 372c9145
+D c_sockets.ads		20120529214139 44862f45
+D c_sockets_arch.ads	20120529194800 c328cf60
+D chat_client_2.adb	20171123162152 db828ec1
+D chat_messages.ads	20171116093759 e5cdf2b5
+D concurrency.ads	20081111152635 d11dedce
+D get_image.ads		20171117160536 1a935ed3
+D gnat.ads		20110801150502 fd2ad2f1
+D g-calend.ads		20120515094453 a65b01a8
+D g-catiio.ads		20140122165324 b8a4f3d4
+D handlers.ads		20171119110629 ef694d6e
+D interfac.ads		20140225151838 69adb1b9
+D i-c.ads		20110801143639 5421119b
+D i-cstrin.ads		20130104124955 341d0ddf
+D i-cstrea.ads		20130412125801 8128536b
+D keyed_lists_generic.ads  20080723100827 b050c1c0
+D lists_generic.ads	20080723100827 4cea129e
+D lower_layer.ads	20080723100827 bc61d30f
+D lower_layer-inet.ads	20080723100827 1d47d264
+D lower_layer-inet-udp.ads  20080723100827 60f0483f
+D lower_layer-inet-udp-uni.ads  20080723100827 c94f5d30
+D lower_layer_udp.ads	20080723100827 ec2df04c
+D maps_g.ads		20171121110018 e3f1a4e6
+D system.ads		20141210093300 90249111
+D s-atacco.ads		20120515093410 4c36d12f
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010121735 62bad392
+D s-conca2.ads		20140225151544 02a0d7d0
+D s-conca3.ads		20140225151544 0b705ca5
+D s-conca4.ads		20140225151544 7e642b20
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-linux.ads		20140409145429 5b2f79a5
+D s-multip.ads		20101011073009 38ac9f73
+D s-oscons.ads		20141210093300 a445b120
+D s-osinte.ads		20140409145429 59011f13
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stausa.ads		20110804134155 017a0a05
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-string.ads		20140225151139 8fe54fb7
+D s-ststop.ads		20140225151139 e6693757
+D s-tasinf.ads		20120730151500 21316953
+D s-taspri.ads		20110927094500 15f617a8
+D s-taprop.ads		20111212143339 1dd2e1b6
+D s-taskin.ads		20140131154341 3f821f32
+D s-taprob.ads		20110927094500 502249e3
+D s-tpoben.ads		20121029113218 b641f948
+D s-tassta.ads		20121029110946 70812003
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-valint.ads		20090409150019 48a52a3f
+D s-wchcon.ads		20140225151139 1b7d22d2
+D unchdeal.ads		20070406091342 214516a4
+X 1 ada.ads
+16K9*Ada 19e8 22|2r6 3r6 4r6 5r6 10r29 11r29 12r30 157r17 158r17
+X 5 a-comlin.ads
+38K13*Command_Line 139e21 22|5w10 11r33
+41V13*Argument_Count{natural} 22|25s24
+48V13*Argument{string} 22|26s62 27s51 28s63
+X 6 a-except.ads
+53K13*Exceptions 360e19 22|4w10 157r21 158r21
+71V13*Exception_Name{string} 22|157s32
+93V13*Exception_Message{string} 22|158s32
+X 11 a-string.ads
+16K13*Strings 35e16 22|2r10 10r33
+X 13 a-strunb.ads
+76K21*Unbounded 489e26 22|2w18 10r41
+79R9*Unbounded_String<7|48R9> 473e14 22|21r55 23r107 35r77 37r28 46r102 52r21
+. 57r122 62r21 63r21 68r111 73r21 88r89 91r32 110r21 113r23
+94V13*To_Unbounded_String{79R9} 22|26s38 28s39 39s31 97s41
+100V13*To_String{string} 22|39s66 40s45 98s32 106s39 135s74 140s87
+X 16 a-textio.ads
+49K13*Text_IO 471e16 22|3w10 12r34
+166U14*New_Line 22|94s22 137s30
+242U14*Put 22|93s22 96s30
+256V13*Get_Line{string} 22|97s66
+263U14*Put_Line 22|135s30 139s30 148s22 151s22 156s22
+X 22 chat_client_2.adb
+8U11*chat_client_2 8b11 160l5 160t18
+9K17 LLU=9:29 34r48 39r52 40r30 43r56 44r108 45r108 48r17 50r17 51r17 55r67
+. 56r116 59r17 61r17 66r66 67r116 70r17 72r17 76r63 82r17 85r61 86r94 87r87
+. 89r90 100r33 103r33 104r33 112r20 114r46 115r25 122r9 123r9 126r9 128r9
+. 129r9 144r9 149r17 152r17 154r17 159r17
+10K17 ASU=10:41 21r51 23r103 26r34 28r35 35r73 37r24 39r27 39r62 40r41 46r98
+. 52r17 57r118 62r17 63r17 68r107 73r17 88r85 91r28 97r37 98r28 106r35 110r17
+. 113r19 135r70 140r83
+11K17 ACL=11:33 25r20 26r58 27r47 28r59
+12K17 ATIO=12:34 93r17 94r17 96r25 97r61 135r25 137r25 139r25 148r17 151r17
+. 156r17
+13K17 CM=13:28 19r18 49r17 49r49 60r17 60r49 71r17 71r49 78r27 80r28
+15X9 Usage_Error 30r31 147r14
+16X9 Ignored 141r31 153r14
+17X9 Shutdown 131r23 150r14
+21U19 comprobar_comandos 21b19 21<39 22<89 23<89 32l13 32t31 119s9
+21r39 maquina{13|79R9} 26m25
+22i89 puerto{natural} 27m25
+23r89 nickname{13|79R9} 28m25
+34U19 Crear_EP 34b19 34<33 35>65 36>65 41l13 41t21 120s9
+34p33 Server_EP{40|23P12} 40m17
+35r65 Maquina{13|79R9} 39r76
+36i65 Puerto{natural} 40r63
+37r17 Dir_IP{13|79R9} 39m17 40r55
+43U19 Build_Message_Init 43b19 43^38 44>89 45>89 46>89 53l13 53t31 125s9
+43p38 P_Buffer(40|8R12) 48r27 49r40 50r43 51r43 52r45
+44p89 Client_EP_Receive{40|23P12} 50r53
+45p89 Client_EP_Handler{40|23P12} 51r53
+46r89 Nickname{13|79R9} 52r55
+55U19 Build_Message_Writer 55b19 55^49 56>97 57>97 57>106 64l13 64t33 99s33
+55p49 P_Buffer(40|8R12) 59r27 60r40 61r43 62r45 63r45
+56p97 Client_EP_Handler{40|23P12} 61r53
+57r97 Nickname{13|79R9} 62r54
+57r106 Comentario{13|79R9} 63r55
+66U19 Build_Message_Logout 66b19 66^49 67>97 68>97 74l13 74t33 102s33
+66p49 P_Buffer(40|8R12) 70r27 71r40 72r43 73r45
+67p97 Client_EP_Handler{40|23P12} 72r53
+68r97 Nickname{13|79R9} 73r54
+76U19 Extract_Message_Welcome 76b19 76^45 77<105 83l13 83t36 133s17
+76p45 P_Buffer(40|8R12) 80r50 81r40 82r27
+77b105 Acogido{boolean} 81m17
+78e17 Type_Mess{23|2E14} 80m17
+85U19 Modo_Escritor_Lector 85b19 85>40 86>73 87>73 88>73 89^73 108l13 108t33
+. 136s25
+85p40 Client_EP_Receive{40|23P12}
+86p73 Client_EP_Handler{40|23P12} 99r63 102r63
+87p73 Server_EP{40|23P12} 100r42 103r42
+88r73 Nickname{13|79R9} 99r81 102r81
+89p73 P_Buffer(40|8R12) 99r54 100r52 102r54 103r52 104r43
+91r17 Comentario{13|79R9} 97m25 98r42 99r90 106r49
+110r9 Maquina{13|79R9} 119m28 120r28
+111i9 Puerto{natural} 119m36 120r36
+112p9 Server_EP{40|23P12} 120m18 120r18 126r18 136r82
+113r9 Nickname{13|79R9} 119m43 125r78 135r84 136r92 140r97
+114p9 Client_EP_Receive{40|23P12} 122m22 122r22 125r42 129r21 136r46
+114p27 Client_EP_Handler{40|23P12} 123m22 123r22 125r60 136r64
+115r9 Buffer{40|8R12} 125m28 125r28 126m28 126r28 128m19 128r19 129m39 129r39
+. 133m41 133r41 136m101 136r101
+116b9 Acogido{boolean} 133m55 134r20
+116b17 Expired{boolean} 129m60 130r12
+155r14 Ex{6|62R9} 157r47 158r50
+X 23 chat_messages.ads
+1K9*chat_messages 22|6w6 13r28 23|3e18
+2E14*Message_Type 22|19r21 49r20 60r20 71r20 78r30 80r31 23|2e65
+2n31*Init{2E14} 22|49r52
+2n44*Writer{2E14} 22|60r52
+2n58*Logout{2E14} 22|71r52
+X 29 handlers.ads
+10K9*Handlers 22|7w6 123r40 29|40e13
+29U19*Client_Handler 22|123r49
+X 36 lower_layer.ads
+112P9*Address_CA(110R9)
+184V14*"="{boolean} 34|30i19
+186V14*">="{boolean} 34|29i19
+X 40 lower_layer_udp.ads
+4K9*Lower_Layer_UDP 22|1w6 9r29 40|150e20
+8R12*Buffer_Type{36|58R9} 22|43r60 55r71 66r70 76r67 89r94 115r29
+11U14*Reset 22|48s21 59s21 70s21 82s21 104s37 128s13
+23P12*End_Point_Type{36|112P9} 22|34r52 44r112 45r112 50r21 51r21 56r120
+. 61r21 67r120 72r21 85r65 86r98 87r91 112r24 114r50
+46V13*Build{23P12} 22|40s34
+52V13*To_IP{string} 22|39s56
+74U14*Bind_Any 22|122s13 123s13
+110U14*Send 22|100s37 103s37 126s13
+124U14*Receive 22|129s13
+148U14*Finalize 22|144s13 149s21 152s21 154s21 159s21
+X 63 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

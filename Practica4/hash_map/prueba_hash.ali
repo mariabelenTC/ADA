@@ -1,0 +1,128 @@
+V "GNAT Lib v4.6"
+M P W=b
+P SS ZX
+R nnnvnnnnnnvnnnnnnnvnnvnnnvvnnvnvnnnnnnnnnnnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U prueba_hash%b		prueba_hash.adb		668b8c04 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_deallocation%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.calendar%s	g-calend.adb		g-calend.ali
+W gnat.calendar.time_io%s  g-catiio.adb		g-catiio.ali
+W hash_maps_g%s		hash_maps_g.adb		hash_maps_g.ali
+W interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20090409150019 343c83dd
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-filico.ads		20090409150019 872dc219
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-numeri.ads		20080324174807 bb51c45a
+D a-nudira.ads		20100622172941 2fef2912
+D a-nudira.adb		20100622172941 e57ce22b
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-textio.ads		20091028140912 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D a-uncdea.ads		20070406091342 f15a5ed1
+D gnat.ads		20050905075125 fd2ad2f1
+D g-calend.ads		20100909103250 ed16288f
+D g-catiio.ads		20080820161238 b8a4f3d4
+D hash_maps_g.ads	20170122193622 226cf2eb
+D hash_maps_g.adb	20170122193556 ad42c102
+D interfac.ads		20090409150019 f77d8799
+D i-c.ads		20101007125900 809c38c4
+D i-cstrea.ads		20100622165701 1bd72c32
+D prueba_hash.adb	20170122192540 b5e1d1b2
+D system.ads		20140416172229 23e1f70b
+D s-conca2.ads		20090420091404 fbd0f2fc
+D s-crtl.ads		20100617122610 ac77b159
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20100909103250 443b9d66
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-imgint.ads		20090409150019 02dbe0c2
+D s-parame.ads		20091130110856 9c5d83fa
+D s-rannum.ads		20100623054052 5eb33f0a
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 28|1r6 2r6 3r6 8r25 9r25 31r7 37r10 53r17 57r9 68r9 72r17 78r17
+. 83r17 90r17 96r17 99r9
+X 9 a-numeri.ads
+16K13*Numerics 32e17 28|3r10
+X 10 a-nudira.ads
+44k22*Discrete_Random 73e33 28|3w19
+X 13 a-string.ads
+16K13*Strings 35e16 28|2r10 8r29
+X 15 a-strunb.ads
+77K21*Unbounded 490e26 28|2w18 8r37
+X 17 a-textio.ads
+49K13*Text_IO 472e16 28|1w10 9r29 31r11 37r14 53r21 57r13 68r13 72r21 78r21
+. 83r21 90r21 96r21 99r13
+167U14*New_Line 28|31s19
+264U14*Put_Line 28|32s12 37s22 53s29 57s21 68s21 72s29 78s29 83s29 90s29
+. 96s29 99s21
+X 23 hash_maps_g.ads
+6+14 Key_Type 28|21r37
+7+14 Value_Type 28|22r37
+8V23 "="{boolean} 28|23r37
+9M14 Hash_Range 28|24r37
+10V23 Hash{9M14} 28|25r37
+11i9 Max{natural} 28|26r73
+13k9*Hash_Maps_G 73e16 28|4w6 21r24
+15R14 Map 28|29r37[21] 40r17[21]
+17X9 Full_Map 28|36r17[21]
+21U19 Get 28|51s14[21] 70s14[21] 76s14[21] 81s14[21] 88s14[21] 94s14[21]
+27U19 Put 28|33s12[21]
+31U19 Delete 28|75s14[21] 87s14[21]
+35V18 Map_Length{natural} 28|57s49[21] 99s49[21]
+X 28 prueba_hash.adb
+7U11*Prueba_Hash 7b11 101l5 101t16
+8K12 ASU=8:37
+9K12 ATIO=9:29 32r7
+11N4 HASH_SIZE 13r27
+13M9 Hash_Range 15r46 17r14 24r51
+15V13 Natural_Hash{13M9} 15b13 15>27 18l8 18t20 25r45
+15i27 N{natural} 17r29
+21K12 Maps[23|13] 29r32 33r7 36r12 40r12 51r9 57r44 70r9 75r9 76r9 81r9 87r9
+. 88r9 94r9 99r44
+29U14 Do_Put 29b14 29=22 29>42 29>54 38l8 38t14 47s9 48s9 59s9 60s9 61s9
+. 62s9 63s9 64s9 65s9 66s9
+29r22 M{23|15R14[21]} 33m17
+29i42 K{natural} 32r47 33r20
+29i54 V{natural} 33r23
+40r4 A_Map{23|15R14[21]} 47m17 48m17 51m18 57r60 59m17 60m17 61m17 62m17
+. 63m17 64m17 65m17 66m17 70m18 75m21 76m18 81m18 87m21 88m18 94m18 99r60
+41i9 N_Ejemplo{natural} 51m29 53r52 70m29 72r52 76m29 78r52 81m29 83r52 88m29
+. 90r52 94m29 96r52
+42b9 Success{boolean} 51m40 52r13 70m40 71r13 75m32 76m40 77r13 81m40 82r13
+. 87m32 88m40 89r13 94m40 95r13
+

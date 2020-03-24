@@ -1,0 +1,130 @@
+V "GNAT Lib v4.9"
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV SPARK_05
+
+U get_image%b		get_image.adb		dd1c8ceb NE OO PK
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system.concat_5%s	s-conca5.adb		s-conca5.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U get_image%s		get_image.ads		7da6e09a EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.calendar%s	g-calend.adb		g-calend.ali
+W gnat.calendar.time_io%s  g-catiio.adb		g-catiio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D get_image.ads		20171117160138 1a935ed3
+D get_image.adb		20171117160432 c78fd238
+D gnat.ads		20110801150502 fd2ad2f1
+D g-calend.ads		20120515094453 a65b01a8
+D g-catiio.ads		20140122165324 b8a4f3d4
+D interfac.ads		20140225151838 69adb1b9
+D i-c.ads		20110801143639 5421119b
+D i-cstrea.ads		20130412125801 8128536b
+D system.ads		20141210093300 90249111
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010121735 62bad392
+D s-conca5.ads		20140225151544 875e432e
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 3r6 4r6 7r28 8r29
+X 2 a-calend.ads
+36K13*Calendar 375e17 15|1w10 7r32
+38I9*Time<200I9> 15|10r35 16|4r35
+200I9 Time_Rep<long_integer>
+X 9 a-string.ads
+16K13*Strings 35e16 15|3r10 8r33
+X 11 a-strunb.ads
+76K21*Unbounded 489e26 15|3w18 8r41
+79R9*Unbounded_String<6|48R9> 473e14 15|12r46 13r84 14r89 16r44 16r73 16|9r46
+. 10r92 13r27 27r44 27r73 28r27 29r31
+84V13*Length{natural} 16|16s31 19s31 22s31
+94V13*To_Unbounded_String{79R9} 16|32s28
+100V13*To_String{string} 16|32s59 33s63
+230V13*Index{natural} 16|17s37 20s38
+396V13*Head{79R9} 16|21s27
+406V13*Tail{79R9} 16|18s30 23s30
+X 13 a-textio.ads
+49K13*Text_IO 471e16 15|4w10
+X 15 get_image.ads
+6K9*Get_Image 19l5 19e14 16|2b14 38l5 38t14
+7K17*AC=7:32 10r32 16|4r32
+8K17*ASU=8:41 12r42 13r80 14r85 16r40 16r69 16|9r42 10r88 13r23 16r27 17r33
+. 18r26 19r27 20r34 21r23 22r27 23r26 27r40 27r69 28r23 29r27 32r24 32r55
+. 33r59
+10V18*Time_Image{string} 10>29 16|4b18 7l13 7t23
+10i29 T{2|38I9} 16|4b29 6r52
+12U19*Trocear_EP 12>30 13<73 14<73 16|9b19 25l13 25t23 31s17
+12r30 EP_Image{11|79R9} 16|9b30 15r24
+13r73 IP{11|79R9} 16|10b73 21m17
+14r73 Puerto{11|79R9} 16|10b76 24m17
+16V18*Image_EP{11|79R9} 16>27 16|27b18 35l13 35t21
+16r27 EP_Image{11|79R9} 16|27b27 31r28
+X 16 get_image.adb
+11i17 P_Delimitador{integer} 17m17 18r51 20m17 21r38 23r51
+12i17 Length_F{natural} 16m17 18r41 19m17 22m17 23r41
+13r17 Frase{11|79R9} 15m17 16r38 17r43 18m17 18r35 19r38 20r44 21r32 22r38
+. 23m17 23r35 24r27
+28r17 Image{11|79R9} 32m17 34r24
+29r17 IP{11|79R9} 31m37 32r69
+29r20 Puerto{11|79R9} 31m40 33r73
+X 17 gnat.ads
+34K9*GNAT 15|2r6 16|6r24 17|37e9
+X 18 g-calend.ads
+45K14*Calendar 15|2r11 16|6r29 18|183e18
+X 19 g-catiio.ads
+35K23*Time_IO 15|2w20 16|6r38 19|156e26
+111V13*Image{string} 16|6s46
+

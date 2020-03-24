@@ -1,0 +1,121 @@
+V "GNAT Lib v4.9"
+P SS ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U lista%b		lista.adb		392c2985 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.compare_array_unsigned_8%s  s-carun8.adb  s-carun8.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+
+U lista%s		lista.ads		3dc6e2a2 EE OO PF PK IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20140225151544 66457d31
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20120426100351 3f91d4c5
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20140225151838 69adb1b9
+D i-cstrea.ads		20130412125801 8128536b
+D lista.ads		20171009201207 02573667
+D lista.adb		20171010081523 0316ea36
+D system.ads		20141210093300 90249111
+D s-atocou.ads		20131010110730 cd7c94ca
+D s-atocou.adb		20131010121735 62bad392
+D s-carun8.ads		20140225151544 a903718d
+D s-conca3.ads		20140225151544 0b705ca5
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-stposu.ads		20121005142121 ffeba1c5
+D s-stratt.ads		20131014135145 aedef97e
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 5r24 17|2r6 7r22
+X 8 a-string.ads
+16K13*Strings 35e16 16|1r10 5r28
+X 10 a-strunb.ads
+76K21*Unbounded 489e26 16|1w18 5r36
+79R9*Unbounded_String<5|48R9> 473e14 16|12r17 19r74 17|115r79
+100V13*To_String{string} 17|122s39 132s32 132s52 180s40
+X 12 a-textio.ads
+49K13*Text_IO 471e16 17|2w10 7r26
+263U14*Put_Line 17|122s14 180s22 184s22
+X 16 lista.ads
+4K9*lista 23l5 23e10 17|5b14 188l5 188t10
+5K12*ASU=5:36 12r13 19r70 17|115r75 122r35 132r28 132r48 180r36
+7R9*Cell 9r34 11c9 14e14 17|123r25
+9P9*Word_List_Type(7R9) 13r13 19r45 21r34 17|115r50 116r22 117r25 119r20
+. 175r31 176r15
+12r7*Word{10|79R9} 17|124m24 132r75 180r56
+13p7*Next{9P9} 17|137r60 151m33 152m28 156m33 157m28 181r30
+17X4*Word_List_Error
+19U14*Add_Word_alfabeto 19=32 19>61 17|115b19 173l13 173t30
+19p32 List{9P9} 17|115b37 121r23 128r12 147m17 150r34 153m17
+19r61 Word{10|79R9} 17|115b66 122r49 124r30 132r42
+21U14*Print_All 21>25 17|175b11 186l5 186t14
+21p25 List{9P9} 17|175b22 178r16 183r12
+X 17 lista.adb
+7K9 ATIO=7:26 122r9 180r17 184r17
+116p9 P_Word_mayor{16|9P9} 121m9 131r24 132r62 136r50 137m33 137r47 141m25
+. 149r47 152r34 157r34
+117p9 P_word_anterior{16|9P9} 136m33 141r39 149r21 150m17 151r17 153r23 156r17
+118b9 hay_word_mayor{boolean} 129m17 131r55 133m33 140r24 146r16
+119p9 P_New_Word{16|9P9} 123m9 124r9 147r23 151r39 152r17 156r39 157r17
+176p9 P_Aux{16|9P9} 178m9 179r15 180r50 181m17 181r24
+

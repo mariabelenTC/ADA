@@ -1,0 +1,54 @@
+V "GNAT Lib v4.6"
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U comparador_array%b	comparador_array.adb	af4cc5e3 NE OO PK
+
+U comparador_array%s	comparador_array.ads	cf2a7d13 EE NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-charac.ads		20070912115821 2d3ec45b
+D a-chlat1.ads		20070912115821 2825df20
+D a-except.ads		20090727140100 0c711ac9
+D a-finali.ads		20090409150019 e5e85fa4
+D a-stream.ads		20090409150019 2ca4ee37
+D a-string.ads		20070406091342 90ac6797
+D a-strmap.ads		20090409150019 9cb836fb
+D a-strunb.ads		20101220072657 e684739b
+D a-tags.ads		20101021101406 c7695348
+D a-unccon.ads		20070406091342 f9eb8f06
+D comparador_array.ads	20161229114124 29ae0e88
+D comparador_array.adb	20161229114130 86e2cb6b
+D interfac.ads		20090409150019 f77d8799
+D system.ads		20140416172229 23e1f70b
+D s-exctab.ads		20090417131547 66e51330
+D s-finimp.ads		20090409150019 46853fe8
+D s-finroo.ads		20090409150019 dbb860c9
+D s-parame.ads		20091130110856 9c5d83fa
+D s-secsta.ads		20090707124243 eea35a36
+D s-soflin.ads		20090729085153 9414c974
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20101021102512 c4241c00
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stratt.ads		20100909123135 aedef97e
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+X 1 ada.ads
+16K9*Ada 19e8 12|1r6 5r29
+X 7 a-string.ads
+16K13*Strings 35e16 12|1r10 5r33
+X 9 a-strunb.ads
+77K21*Unbounded 490e26 12|1w18 5r41
+80R9*Unbounded_String 474e14 12|7r22 9r37 9r68 13|3r37 3r68
+179V13*"<"{boolean} 13|5s28
+X 12 comparador_array.ads
+3K9*Comparador_Array 11l5 11e21 13|1b14 12l5 12t21
+5K17*ASU=5:41 7r18 9r33 9r64 13|3r33 3r64
+9V18*Menor{boolean} 9>24 9>55 13|3b18 10l13 10t18
+9r24 Primero{9|80R9} 13|3b24 5r20
+9r55 Segundo{9|80R9} 13|3b55 5r30
+

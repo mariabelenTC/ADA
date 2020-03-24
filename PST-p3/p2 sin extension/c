@@ -1,0 +1,2 @@
+gnatmake -I/usr/local/ll/lib client.adb 
+./client mariabt 9001 Maria

@@ -1,0 +1,102 @@
+V "GNAT Lib v4.9"
+M P W=b
+P SS ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV SPARK_05
+
+U plazo%b		plazo.adb		c2bd7aa0 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W gnat%s		gnat.ads		gnat.ali
+W gnat.calendar%s	g-calend.adb		g-calend.ali
+W gnat.calendar.time_io%s  g-catiio.adb		g-catiio.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.concat_3%s	s-conca3.adb		s-conca3.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-calend.ads		20120515092648 d86d6c8c
+D a-except.ads		20140129161953 f86a4103
+D a-finali.ads		20111121113555 52ecdc1b
+D a-ioexce.ads		20140225151544 e4a01f64
+D a-stream.ads		20140122164720 1a984740
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20140129155348 386df5d4
+D a-unccon.ads		20070406091342 f9eb8f06
+D gnat.ads		20110801150502 fd2ad2f1
+D g-calend.ads		20120515094453 a65b01a8
+D g-catiio.ads		20140122165324 b8a4f3d4
+D interfac.ads		20140225151838 69adb1b9
+D i-c.ads		20110801143639 5421119b
+D i-cstrea.ads		20130412125801 8128536b
+D plazo.adb		20171113144926 9a19102c
+D system.ads		20141210093300 90249111
+D s-conca2.ads		20140225151544 02a0d7d0
+D s-conca3.ads		20140225151544 0b705ca5
+D s-crtl.ads		20140225151544 840e6817
+D s-exctab.ads		20140225151139 54135002
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20140225151139 814daec4
+D s-finroo.ads		20120426095924 4ff27390
+D s-imglld.ads		20090409150019 f3220969
+D s-parame.ads		20140225151139 ab8cb46a
+D s-pooglo.ads		20110804083314 542f33d0
+D s-secsta.ads		20140225151139 86a2856d
+D s-soflin.ads		20140225151139 aa763b52
+D s-stache.ads		20140225151139 a37c21ec
+D s-stalib.ads		20140225151139 a891183f
+D s-stoele.ads		20140225151139 2dc34a04
+D s-stoele.adb		20140225151139 ed88f8fb
+D s-stopoo.ads		20131010103753 b16154c2
+D s-traent.ads		20140225151139 b5116092
+D s-unstyp.ads		20140225151139 510692af
+D s-wchcon.ads		20140225151139 1b7d22d2
+X 1 ada.ads
+16K9*Ada 19e8 16|1r6 2r6 7r13 8r30 9r28 12r28 45r32 51r21 52r19
+X 2 a-calend.ads
+36K13*Calendar 375e17 16|2w10 7r17 9r32 12r32 45r36 51r25 52r23
+38I9*Time<200I9> 16|7r26 12r41 18r57 18r100 44r30 45r45
+52V13*Clock{38I9} 16|34s33 49s22 51s34 52s32
+94V14*"+"{38I9} 16|50s28
+97V14*"-"{duration} 16|27s30 30s63
+103V14*"<"{boolean} 16|26s30
+200I9 Time_Rep<long_integer>
+X 8 a-textio.ads
+49K13*Text_IO 471e16 16|1w10 8r34
+242U14*Put 16|28s23
+263U14*Put_Line 16|23s22 24s17 29s23 37s17
+X 10 gnat.ads
+34K9*GNAT 37e9 16|3r6 14r14
+X 11 g-calend.ads
+45K14*Calendar 183e18 16|3r11 14r19
+X 12 g-catiio.ads
+35K23*Time_IO 156e26 16|3w20 14r28
+111V13*Image{string} 16|14s36
+X 16 plazo.adb
+6U11*Plazo 6b11 73l5 73t10
+8K17 ATIO=8:34 23r17 24r12 28r18 29r18 37r12
+9K17 AC=9:32 18r54 18r97 34r30 44r27 49r19
+12V13 Time_Image{string} 12b13 12>25 15l8 15t18 23s52 24s47 28s49 37s47
+12i25 T{2|38I9} 14r42
+18U19 Print_Clock 18b19 18>32 18>44 18=62 18=75 39l13 39t24 54s3
+18i32 Hora_Inicio{2|38I9} 23r63 30r65
+18i44 Hora_Fin{2|38I9} 24r58 26r32
+18i62 Hora_Actual{2|38I9} 26r18 27r18 28r60 30r51 32r35 34m15 37r58
+18i75 Hora_Anterior{2|38I9} 27r32 32m18
+21o17 Intervalo{duration} 27r48
+42o4 Plazo{duration} 50r30
+44i4 Hora_Inicio{2|38I9} 49m4 50r16 54r15
+44i17 Hora_Fin{2|38I9} 50m4 54r27
+45i4 Hora_Actual{2|38I9} 52m4 54m36 54r36
+45i17 Hora_Anterior{2|38I9} 51m4 54m49 54r49
+

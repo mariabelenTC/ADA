@@ -1,0 +1,2 @@
+gnatmake -I/usr/local/ll/lib server.adb 
+./server 9001
